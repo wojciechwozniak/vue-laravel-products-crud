@@ -1,0 +1,37 @@
+
+// Fonts
+@import url('https://fonts.google.com/specimen/Spectral');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+.buttons{
+    position: relative;
+    bottom:0;
+}
+.card{
+    .card-text{
+        min-height:4rem;
+    }
+}
+.flashCenter{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    max-height: 400px;
+    width: 260px;
+    -webkit-perspective: 400px;
+    perspective: 400px;
+}

@@ -12,4 +12,3 @@
 */
 
 Route::get('/', 'ProductController@start');
-//Route::resource('product','ProductController');
